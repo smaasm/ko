@@ -1,0 +1,100 @@
+@media screen and (min-width: 990px) {
+    /* #dt-menu > ul > li:not(.logo-desktop) {
+        width: 13%;
+    } */
+}
+@media (max-width: 991px) {
+    #dt-menu > ul > li {
+        padding: 0 10px;
+    }
+    .vc_custom_1519800436364 {
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .women_bg {
+        background: #dff2fd !important;
+        padding-top: 30px !important;
+        padding-right: 35px !important;
+        padding-bottom: 75px !important;
+        padding-left: 35px !important;
+    }
+    .dt-contact-form {
+        margin-bottom: 30px;
+    }
+    .social_row {
+        margin-top: 20px !important;
+    }
+    .services_bubble > div > div:before {
+        display: none;
+        content: '';
+        position: absolute;
+        background: url("bubble_3.png") no-repeat center center;
+        width: 267px;
+        height: 232px;
+        top: -100px;
+        right: -200px;
+        animation: bubble_animation 5s infinite linear;
+        -webkit-animation: bubble_animation 5s infinite linear;
+    }
+    .services_bubble > div > div:after {
+        display: none;
+        content: '';
+        position: absolute;
+        background: url("bubble_4.png") no-repeat center center;
+        width: 261px;
+        height: 198px;
+        bottom: -75px;
+        left: -135px;
+        animation: bubble_animation 5s infinite linear;
+        -webkit-animation: bubble_animation 5s infinite linear;
+    }
+    .about_bubble > div > div > .vc_col-sm-8:after {
+        display: none;
+        content: '';
+        position: absolute;
+        background: url("bubble_5.png") no-repeat center center;
+        width: 210px;
+        height: 288px;
+        top: 25px;
+        right: -205px;
+        animation: bubble_animation 5s infinite linear;
+        -webkit-animation: bubble_animation 5s infinite linear;
+    }
+    .reviews_bubble > div > div:before {
+        display: none;
+        content: '';
+        position: absolute;
+        background: url("bubble_6.png") no-repeat center center;
+        width: 247px;
+        height: 244px;
+        top: 265px;
+        left: -265px;
+        animation: bubble_animation 5s infinite linear;
+        -webkit-animation: bubble_animation 5s infinite linear;
+    }
+    .reviews_bubble > div > div:after {
+        display: none;
+        content: '';
+        position: absolute;
+        background: url("bubble_7.png") no-repeat center center;
+        width: 388px;
+        height: 264px;
+        top: 190px;
+        right: -205px;
+        animation: bubble_animation 5s infinite linear;
+        -webkit-animation: bubble_animation 5s infinite linear;
+    }
+    .left_block_map > div {
+        min-height: auto;
+    }
+    .hide_mobile {
+	display: none;
+    }
+    .vc_custom_1523281558149 {
+	padding-left: 45px !important;
+        padding-right: 45px !important;
+    }
+}
